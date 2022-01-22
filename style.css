@@ -1,0 +1,110 @@
+body{
+    background-color: #4158D0;
+    background-image: url(matrix.png);
+    
+    }
+
+.secao{    
+    padding: 10px;
+    margin: auto;
+    background-color: rgba(11, 46, 4, 0.959);
+    border-radius: 0.5em;
+    width: 60vw;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;    
+    margin-right: 10px;   
+}
+
+.m_secao{
+    display: flex;       
+}
+
+.main_class{
+    display: flex;
+    margin: 60px;
+    padding: 40px; 
+}
+
+#titulo{
+    font-weight: bold;
+    background-color: rgba(11, 46, 4, 0.959);
+    text-align: center;
+    align-items: center;
+    border-radius: 0.5em;
+    padding: 35px;
+    width: 50%;
+    margin: 100px 23% 1em;
+    font-family: arial, helvetica, sans-serif;
+    color: #ade9e9
+}
+
+.button{
+    margin-left: 5px;
+    
+}
+
+h2{
+    font-family: arial, helvetica, sans-serif;
+    color:rgb(114, 202, 243)
+}
+
+#msg {
+    border-radius: 0.5em;
+    border: none;
+}
+
+#btn-copy{
+    border-radius: 20px;
+    margin: 20px;   
+    border: none; 
+    font-weight: bold;
+    
+}
+
+#btn-cripto{
+    border-radius: 0.5em;
+    font-family: arial, helvetica, sans-serif;
+    margin: 25px;
+    font-size: 25px;
+    border: none;
+    font-weight: bold;
+    
+}
+
+#btn-descripto{
+    border-radius: 0.5em;
+    font-family: arial, helvetica, sans-serif;
+    margin: 25px;
+    font-size: 25px;
+    border: none;
+    font-weight: bold;
+}
+
+#input-texto{
+    border-radius: 0.5em;
+    border: none;
+    height: 5vh;
+    width: 700px;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.button {
+    font-family: arial, helvetica, sans-serif;
+    width: auto;
+    margin: 25px;
+    font-size: 25px;
+    transition: 0.3s;
+    
+}
+
+input:hover{
+    background-color:#00d4ff;
+    transition: 0.3s;
+}

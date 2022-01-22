@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title> Challenge </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    
+    <body id="body" >   
+            
+    <header>
+        <h1 id="titulo">Criptografar sua mensagem </h1>
+    </header>        
+    
+    <main class="main_class">
+
+        <section class="secao">
+            <h2>  Apenas letras minúsculas, sem acento!</h2>
+            <form action="">
+            <input type="text" id="input-texto" name="input-texto"placeholder="Insira o texto aqui"></input>
+            <input class="button" type="submit" value="criptografar" id="btn-cripto" onclick="criptografar()">
+            <input class="button" type="submit" value="descriptografar" id="btn-descripto" onclick="descriptografar()">
+            </form>
+        </section>   
+
+    
+
+        <section class="secao">
+            <h2>Mensagem criptografada!</h2>
+            <input class="button" type="text" id="msg"></input>
+            <input class="button" type="submit" value="copiar" id="btn-copy" onclick="copyText()">
+        </section>
+
+        <script src="script.js"></script>
+    </main> 
+    </body>
+</html>
